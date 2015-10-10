@@ -1,12 +1,20 @@
 # mk1
+Simple demo for altvr:
+https://github.com/AltspaceVR/altspacevr-project-html-ui
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+## Installing
+
+Run `npm install`
+Run `bower install`
 
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
 
-Running `grunt test` will run the unit tests with karma.
+## About
+* Simple Admin interface for spaces using AngularJS and AngularUI bootstrap
+* Showed a mix of my AngularJS skills
+* Have notes throughout the code to explain some areas, and indicate areas of improvement
+* Added local search
+* Added mini styling for private/welcome/feature
