@@ -1,0 +1,9 @@
+<div class="new_form">
+    <h1>New</h1>
+    <uib-alert ng-repeat="alert in new.alerts" type="{{alert.type}}" close="edit.closeAlert($index)" data-ng-bind-html="alert.msg"></uib-alert>
+    <div data-ng-include="new.formHTML" data-ng-controller="FormCtrl"></div>
+    <div class="controls">
+        <a class="cancel_btn" data-ng-click="new.cancel()">Cancel</a>
+        <a class="save_btn btn btn-primary" data-ng-click="new.save()">Save</a>
+    </div>
+</div>

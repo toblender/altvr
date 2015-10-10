@@ -1,0 +1,101 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+.admin_list_view .author{
+  font-size:10px;
+  font-weight:bold;
+  padding-bottom:5px;
+}
+
+.admin_list_view .controls{
+  text-align:right;
+}
+
+.admin_list_view .description{
+  overflow: scroll;
+  height:40px;
+}
+.admin_list_view .create:hover {
+  cursor:pointer;
+  opacity:0.75;
+}
+.admin_list_view .create .plus{
+  font-size: 150px;
+  padding: 20px 34px;
+}
+
+.admin_list_view .feature_star{
+  display:none;
+  color:yellow;
+}
+.admin_list_view .featured{
+  position:relative;
+}
+.admin_list_view .welcome .thumbnail{
+  background-color:#ebebeb;
+}
+.admin_list_view .featured .feature_star{
+  display:block;
+  position:absolute;
+  top:10px;
+  left:30px;
+  font-size:30px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.admin_view .space_form ul{
+  list-style:none;
+  padding:0;
+}
+.admin_view .space_form ul li{
+  float:left;
+  margin-right:20px;
+}
+.admin_view .space_form ul li label{
+  margin-left:10px;
+  cursor:pointer;
+}
+.admin_view .space_form ul li label input[type=checkbox]{
+  margin-right:10px;
+}
+
+.admin_view .new_form,
+.admin_view .edit_form{
+  position:relative;
+}
+
+.admin_view .new_form .controls{
+  height:32px;
+}
+
+.admin_view .save_btn{
+  position: absolute;
+  right:0;
+}
+.admin_view .cancel_btn{
+  position:absolute;
+  right:100px;
+  bottom:6px;
+  cursor:pointer;
+}
+
+.clear_both{
+  float:none;
+  clear:both;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+}
